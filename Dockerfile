@@ -1,3 +1,3 @@
 FROM rabbitmq
-RUN COPY ./testfile.txt /opt/test/
+COPY ./testfile.txt /opt/test/
 
